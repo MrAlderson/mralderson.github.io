@@ -63,6 +63,19 @@
  <script src="https://use.fontawesome.com/f7293f3bb0.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Exo:400,700%7COpen+Sans" rel="stylesheet">
 
+<!-- Social Media Feed -->
+
+	<link href="jquery.socialist.css" rel="stylesheet" />
+    <script src="jquery.socialist.js"></script>
+	<script>
+		$('#content').socialist({
+        networks: [
+            {name:'facebook',id:'BERT133'},
+            {name:'twitter',id:'BERTRobotics'},
+        ]
+    });
+	</script>
+
   <!-- /snippets/oldIE-js.liquid -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
@@ -300,7 +313,7 @@
 
     <!-- /templates/index.liquid -->
 
-<div class="homeBlogSection">
+<div class="CompetitionSection">
 
   <div class="wrapper">
 
@@ -315,24 +328,28 @@ A FIRST Robotics Competition team based out of Bonny Eagle High School in Buxton
 
     <div class="grid__item large--four-tenths medium-down--full subGrid" style="padding-left: 10px;">
 
-      <div class="blogPosts">
-        <a>&nbsp</a>
-        <h3><a href="#"><center>Seasons Competitions</center></a></h3><br>
+      <div class="Competitions">
+        <h3><a href="#"><center>Seasons Competitions</center></a></h3>
       </div>
 
-      <div class="blogPosts">
-        <a><time datetime="2017-11-12">Week #</time></a>
-        <h3><a href="#">Competition</a></h3>
+      <div class="Competitions">
+        <a><time datetime="2018-03-16">Week 3</time></a>
+        <h3><a href="#">Competition 1</a></h3>
       </div>
 
-      <div class="blogPosts">
-        <a><time datetime="2017-11-01">Week #</time></a>
-        <h3><a href="#">Competition</a></h3>
+      <div class="Competitions">
+        <a><time datetime="2018-03-22">Week 4</time></a>
+        <h3><a href="#">Competition 2</a></h3>
       </div>
 
-      <div class="blogPosts">
-        <a><time datetime="2017-10-30">Week #</time></a>
-        <h3><a href="#">Competition</a></h3>
+      <div class="Competitions">
+        <a><time datetime="2018-04-11">Week 7</time></a>
+        <h3><a href="#">NE Championship</a></h3>
+      </div>
+      
+      <div class="Competitions">
+        <a><time datetime="2018-04-25">Week 9</time></a>
+        <h3><a href="#">FIRST Championship</a></h3>
       </div>
       
     </div>
@@ -369,7 +386,7 @@ A FIRST Robotics Competition team based out of Bonny Eagle High School in Buxton
 
 </div>
 
-<div class="homeVideoSection">
+<div class="countdownTimer">
 
   <div class="wrapper">
   		<div class="container">
@@ -383,7 +400,10 @@ A FIRST Robotics Competition team based out of Bonny Eagle High School in Buxton
   </div>
 </div>
 
-    
+<div class="SocialMediaFeed">
+
+  <div id="content">
+</div>    
 
   </main>
 
@@ -422,7 +442,7 @@ A FIRST Robotics Competition team based out of Bonny Eagle High School in Buxton
       <div class="grid__item large--one-half large--text-right medium-down--one-whole socialFooter">
         <ul>
 
-          <li><a href="https://twitter.com/IgneousGG" target="_new"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/BERTRobotics" target="_new"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         </ul>
       </div>
 

@@ -2613,7 +2613,7 @@ label.error {
 .rslides li, .rslides img {
 	width: 100% !important
 }
-.homeBlogSection {
+.CompetitionSection {
 	position: relative;
 	float: left;
 	width: 100%;
@@ -2621,7 +2621,7 @@ label.error {
 	padding: 40px 0 160px 0;
 }
 @media screen and (max-width: 1099px) {
-	.homeBlogSection {
+	.CompetitionSection {
 		padding: 40px 0 65px 0
 	}
 }
@@ -2655,33 +2655,33 @@ label.error {
 		text-align: center
 	}
 }
-.blogPosts {
+.Competitions {
 	margin: 0 0 20px 0;
 	padding: 10px;
 	background-color: #2a2e3f
 }
 @media screen and (max-width: 468px) {
-	.blogPosts {
+	.Competitions {
 		margin-left: -10px
 	}
 }
-.blogPosts:hover {
+.Competitions:hover {
 	margin-bottom: 18px;
 	border-bottom: 2px solid #00a840
 }
-.blogPosts a time {
+.Competitions a time {
 	color: #a6afb7;
 	text-transform: uppercase;
 	font-size: 12px
 }
-.blogPosts a time:hover {
+.Competitions a time:hover {
 	color: #d0d5d9
 }
-.blogPosts h3 a, .blogPosts .h3 a {
+.Competitions h3 a, .Competitions .h3 a {
 	color: #FFFFFF;
 	font-size: 22px
 }
-.blogPosts h3 a:hover, .blogPosts .h3 a:hover {
+.Competitions h3 a:hover, .Competitions .h3 a:hover {
 	color: #d9d9d9
 }
 .homepageFeatures {
@@ -2749,7 +2749,7 @@ label.error {
 .sectionTitle a {
 	color: #2a2e3f
 }
-.homeVideoSection {
+.countdownTimer {
 	background-color: #00a840;
 	position: relative;
 	float: left;
@@ -2759,11 +2759,11 @@ label.error {
 	z-index: 90
 }
 @media screen and (max-width: 1099px) {
-	.homeVideoSection {
+	.countdownTimer {
 		padding: 50px 0 65px 0
 	}
 }
-.homeVideoSection h1, .homeVideoSection .h1 {
+.countdownTimer h1, .countdownTimer .h1 {
 	color: #FFFFFF;
 	font-size: 28px;
 	text-align: center
@@ -2920,7 +2920,7 @@ label.error {
 	margin-right: 10px !important;
 	border-radius: 100px
 }
-.matchResults {
+.SocialMediaFeed {
 	position: relative;
 	float: left;
 	margin: 0;
@@ -2929,11 +2929,11 @@ label.error {
 	background-color: #2a2e3f
 }
 @media screen and (max-width: 1099px) {
-	.matchResults {
+	.SocialMediaFeed {
 		padding: 50px 0 20px 0
 	}
 }
-.matchResults h1, .matchResults .h1 {
+.SocialMediaFeed h1, .SocialMediaFeed .h1 {
 	color: #FFFFFF;
 	font-size: 28px;
 	text-align: center
